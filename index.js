@@ -7,7 +7,7 @@ const path = require('path');
 const { analyzeSymbol } = require('./analysis');
 
 // ---------- CẤU HÌNH ----------
-const TOKEN = process.env.TELEGRAM_BOT_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN_HERE';
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN || '8556974173:AAGi4Zo5cxZdM_3JrSVpejMg7VAzeGMUgTk';
 const PORT = process.env.PORT || 3000;
 const USERS_FILE = process.env.USERS_FILE || path.join(__dirname, 'users.json');
 const LAST_SIGNALS_FILE = process.env.LAST_SIGNALS_FILE || path.join(__dirname, 'last_signals.json');
